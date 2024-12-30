@@ -11,7 +11,7 @@ const Home = () => {
             </h1>
             <p className="text-base/8 mb-7">As a passionate about UI UX Design and Mobile Development, 
             I focus on crafting innovative and impactful solutions for the digital world. 
-            My recent work includes UNYCraft and PersonaWay, which highlights my ability to combine creativity and functionality in a seamless user experience..</p>
+            My recent work includes UNYCraft and PersonaWay, which highlights my ability to combine creativity and functionality in a seamless user experience.</p>
             <a href="#" className="inline-block mt-4 text-white bg-sky-500 px-6 py-3 rounded-full font-medium shadow-lg hover:bg-sky-600 transition-all">
               Tentang Kami <i className="ri-eye-line ms-1"></i>
             </a>
