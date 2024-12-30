@@ -20,6 +20,12 @@ const Home = () => {
           <img src={mobil} alt="mobil" />
           </div>
         </div>
+
+        <div className="about">
+          <div className="box">
+            <img src="" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );
