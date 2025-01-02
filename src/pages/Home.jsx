@@ -49,6 +49,15 @@ const Home = () => {
           </div>
         </div>
 
+        <div className="project pt-28">
+          <h1 className="text-center lg:text-5xl/tight text-3xl font-bold mb-2">Project</h1>
+          <p className="text-center">Let&apos;s Know about my project</p>
+          <div className="project-box">
+            <div className="box">
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
