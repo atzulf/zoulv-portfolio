@@ -33,10 +33,10 @@ const Navbar = () => {
         </div>
         <ul className={click ? "flex flex-col items-center gap-6 fixed left-0 top-16 w-full py-8 z-50 font-bold transition-all rounded shadow-lg shadow-slate-300" : "hidden md:flex md:gap-12 lg:gap-16"}>
           <li>
-            <a href="#" className="font-medium opacity-75">Beranda</a>
+            <a href="#" className="font-medium opacity-75">Home</a>
           </li>
           <li>
-            <a href="#" className="font-medium opacity-75">Tentang saya</a>
+            <a href="#" className="font-medium opacity-75">About Me</a>
           </li>
           <li>
             <a href="#" className="font-medium opacity-75">Project</a>
@@ -44,7 +44,7 @@ const Navbar = () => {
         </ul>
         <div className="social hidden md:block">
           <a href="#" className="bg-sky-500 px-5 py-2 rounded-full text-white font-bold hover:bg-sky-600 transition-all">
-            Kontak Saya
+            Contact Me
           </a>
         </div>
       </div>
