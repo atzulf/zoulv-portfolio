@@ -44,7 +44,7 @@ const Navbar = () => {
         </ul>
         <div className="social hidden md:block">
           <a href="#" className="bg-sky-500 px-5 py-2 rounded-full text-white font-bold hover:bg-sky-600 transition-all">
-            Kontak Kami
+            Kontak Saya
           </a>
         </div>
       </div>
