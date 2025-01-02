@@ -5,7 +5,6 @@ const footer = () => {
         <p>
           &copy; Copyright by <span>Ataka Dzulfikar</span>
         </p>
-        
       </div>
     </div>
   )
