@@ -31,15 +31,15 @@ const Navbar = () => {
         <div className="hamburger md:hidden" onClick={handleClick}>
           {click ? <FaTimes size={20} style={{ color: '#000' }} /> : <FaBars size={20} style={{ color: '#000' }} />}
         </div>
-        <ul className={click ? "flex flex-col items-center gap-6 fixed left-0 top-16 w-full py-8 z-50 font-bold transition-all rounded shadow-lg shadow-slate-300" : "hidden md:flex md:gap-12 lg:gap-16"}>
+        <ul className={click ? "flex flex-col items-center gap-6 fixed left-0 top-16 w-full py-8 z-50 font-bold transition-all rounded shadow-lg bg-white shadow-slate-300" : "hidden md:flex md:gap-12 lg:gap-16"}>
           <li>
-            <a href="#" className="font-medium opacity-75">Home</a>
+            <a href="home" className="font-medium opacity-75">Home</a>
           </li>
           <li>
-            <a href="#" className="font-medium opacity-75">About Me</a>
+            <a href="#about" className="font-medium opacity-75">About Me</a>
           </li>
           <li>
-            <a href="#" className="font-medium opacity-75">Project</a>
+            <a href="#project" className="font-medium opacity-75">Project</a>
           </li>
         </ul>
         <div className="social hidden md:block">

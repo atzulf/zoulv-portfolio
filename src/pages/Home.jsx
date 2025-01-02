@@ -63,7 +63,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="about grid md:grid-cols-2 grid-cols-1 items-center mt-20 mb-12 gap-12 md:pt-20 pt-32 py-12">
+        <div id="about" className="about grid md:grid-cols-2 grid-cols-1 items-center mt-20 mb-12 gap-12 md:pt-20 pt-32 py-12">
           <div className="box">
             <img src={aboutme} alt="aboutme" className="w-80 md:m-0 mx-auto" />
           </div>
@@ -84,7 +84,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="project pt-28">
+        <div id="project" className="project pt-28">
           <h1 className="text-center lg:text-5xl/tight text-3xl font-bold mb-2">Project</h1>
           <p className="text-center">Let&apos;s Know about my project</p>
           <div className="project-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
