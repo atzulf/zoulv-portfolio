@@ -12,9 +12,22 @@ import port9 from "../assets/images/unycraft.png"
 import port10 from "../assets/images/unycraftapp.png"
 import port11 from "../assets/images/spkweb.png"
 import port12 from "../assets/images/image.png"
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 
 const Home = () => {
+  const [text] = useTypewriter({
+    words: [
+      "UI UX Design Enthusiast",
+      "Android App Development",
+      "Front End Development",
+    ],
+    loop: true,
+    typeSpeed: 50,
+    deleteSpeed: 30,
+    delaySpeed: 1000,
+  });
+
   return (
     <div className="home py-12 mb-10">
       <div className="container mx-auto px-4 md:px-16 lg:px-24 max-w-screen-xl">
@@ -23,6 +36,14 @@ const Home = () => {
             <h1 className="text-5xl font-bold mb-3">
               Hello I&apos;m <span className="text-sky-500 text-5xl inline">Ataka Dzulfikar</span>
             </h1>
+            <h2 className=" text-3xl font-semibold text-sky-700 mb-2">
+            {text}
+              <Cursor
+                cursorBlinking={false}
+                cursorStyle="|"
+                cursorColor="#0ea5e9"
+              />
+            </h2>
             <p className="text-base mb-7 text-justify">
               As a passionate about UI UX Design and Mobile Development, I focus on crafting innovative and impactful solutions for the digital world.
             </p>
