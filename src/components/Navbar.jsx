@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
         <ul className={click ? "flex flex-col items-center gap-6 fixed left-0 top-16 w-full py-8 z-50 font-bold transition-all rounded shadow-lg bg-white shadow-slate-300" : "hidden md:flex md:gap-12 lg:gap-16"}>
           <li>
-            <a href="home" className="font-medium opacity-75">Home</a>
+            <a href="#home" className="font-medium opacity-75">Home</a>
           </li>
           <li>
             <a href="#about" className="font-medium opacity-75">About Me</a>

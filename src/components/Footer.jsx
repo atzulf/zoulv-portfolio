@@ -6,7 +6,7 @@ const Footer = () => {
         <nav className="mb-6">
           <ul className="flex justify-center space-x-6">
             <li>
-              <a href="home" className="text-gray-600 hover:text-sky-500 transition">
+              <a href="#home" className="text-gray-600 hover:text-sky-500 transition">
                 Home
               </a>
             </li>
