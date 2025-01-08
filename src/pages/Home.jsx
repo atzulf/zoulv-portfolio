@@ -48,7 +48,7 @@ const Home = () => {
               As a passionate about UI UX Design and Mobile Development, I focus on crafting innovative and impactful solutions for the digital world.
             </p>
             <a
-              href="#"
+              href="#about"
               className="inline-block mt-3 text-white bg-sky-500 px-6 py-3 rounded-full font-medium shadow-lg hover:bg-sky-600 transition-all"
             >
               About Me <i className="ri-eye-line ms-1"></i>
