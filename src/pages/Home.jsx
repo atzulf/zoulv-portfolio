@@ -96,7 +96,7 @@ const Home = () => {
               </div>
             </a>
             
-            <a href="https://github.com/atzulf/Event-App">
+            <a href="https://github.com/atzulf/Event-App" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
                 <img src={port2} alt="crawlingtwitter" className="w-full h-[220px]"/>
                 <h3 className="text-xl font-bold mt-6 mb-2">Mobile Apps Dicoding Event</h3>
@@ -110,7 +110,7 @@ const Home = () => {
               <p className="text-base/loose text-justify">Creating Figma UNYCraft UI Design for 5th semester Human Computer Interaction Course.</p>
             </div>
 
-            <a href="https://github.com/atzulf/insectdetection">
+            <a href="https://github.com/atzulf/insectdetection" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
                 <img src={port4} alt="crawlingtwitter" className="w-full h-[220px]"/>
                 <h3 className="text-xl font-bold mt-6 mb-2">Insect Animals Detection Website using Streamlit</h3>
@@ -118,7 +118,7 @@ const Home = () => {
               </div>
             </a>
             
-            <a href="https://github.com/atzulf/course_story">
+            <a href="https://github.com/atzulf/course_story" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
                 <img src={port5} alt="crawlingtwitter" className="w-full h-[220px]"/>
                 <h3 className="text-xl font-bold mt-6 mb-2">Course Story App 1 Android Intermediate</h3>
@@ -127,7 +127,7 @@ const Home = () => {
             </a>
             
 
-            <a href="https://github.com/atzulf/digi-skill">
+            <a href="https://github.com/atzulf/digi-skill" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
                 <img src={port7} alt="crawlingtwitter" className="w-full h-[220px]"/>
                 <h3 className="text-xl font-bold mt-6 mb-2">DigiSkill Android App 5th semester</h3>
@@ -136,7 +136,7 @@ const Home = () => {
             </a>
             
 
-            <a href="https://github.com/atzulf/course_story_v2">
+            <a href="https://github.com/atzulf/course_story_v2" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
                 <img src={port6} alt="crawlingtwitter" className="w-full h-[220px]"/>
                 <h3 className="text-xl font-bold mt-6 mb-2">Course Story App 2 Android Intermediate</h3>
@@ -144,7 +144,7 @@ const Home = () => {
               </div>
             </a>
             
-            <a href="https://github.com/PersonaWay">
+            <a href="https://github.com/PersonaWay" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
                 <img src={port8} alt="crawlingtwitter" className="w-full h-[220px]"/>
                 <h3 className="text-xl font-bold mt-6 mb-2">PersonaWay Personality App</h3>
@@ -152,7 +152,7 @@ const Home = () => {
               </div>
             </a>
             
-            <a href="https://github.com/atzulf/UNYCraft-Information-System-Management">
+            <a href="https://github.com/atzulf/UNYCraft-Information-System-Management" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
                 <img src={port9} alt="crawlingtwitter" className="w-full h-[220px]"/>
                 <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft Website</h3>
@@ -160,7 +160,7 @@ const Home = () => {
               </div>
             </a>
             
-            <a href="https://github.com/atzulf/UNYCraft">
+            <a href="https://github.com/atzulf/UNYCraft" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
                 <img src={port10} alt="crawlingtwitter" className="w-full h-[220px]"/>
                 <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft Mobile App</h3>
