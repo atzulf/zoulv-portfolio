@@ -88,66 +88,86 @@ const Home = () => {
           <h1 className="text-center lg:text-5xl/tight text-3xl font-bold mb-2">Project</h1>
           <p className="text-center">Let&apos;s Know about my project</p>
           <div className="project-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port1} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">Crawling Data Twitter with Streamlit</h3>
-              <p className="text-base/loose text-justify">Creating a Twitter Data Crawling Website using Streamlit for Web Application project.</p>
-            </div>
-
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port2} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">Mobile Apps Dicoding Event</h3>
-              <p className="text-base/loose text-justify">Create Kotlin Dicoding Event App using Retrofit as API caller for fundamental class submision collection.</p>
-            </div>
-
+            <a href="https://github.com/atzulf/Crawlingdatatwitter" target="_blank">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port1} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">Crawling Data Twitter with Streamlit</h3>
+                <p className="text-base/loose text-justify">Creating a Twitter Data Crawling Website using Streamlit for Web Application project.</p>
+              </div>
+            </a>
+            
+            <a href="https://github.com/atzulf/Event-App">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port2} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">Mobile Apps Dicoding Event</h3>
+                <p className="text-base/loose text-justify">Create Kotlin Dicoding Event App using Retrofit as API caller for fundamental class submision collection.</p>
+              </div>
+            </a>
+            
             <div className="box p-2 bg-white shadow rounded-lg">
               <img src={port3} alt="crawlingtwitter" className="w-full h-[220px]"/>
               <h3 className="text-xl font-bold mt-6 mb-2">UI Design Figma UNYCraft</h3>
               <p className="text-base/loose text-justify">Creating Figma UNYCraft UI Design for 5th semester Human Computer Interaction Course.</p>
             </div>
 
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port4} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">Insect Animals Detection Website using Streamlit</h3>
-              <p className="text-base/loose text-justify">Creating an Insect Detection Website using Streamlit as a web application assignment collection.</p>
-            </div>
+            <a href="https://github.com/atzulf/insectdetection">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port4} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">Insect Animals Detection Website using Streamlit</h3>
+                <p className="text-base/loose text-justify">Creating an Insect Detection Website using Streamlit as a web application assignment collection.</p>
+              </div>
+            </a>
+            
+            <a href="https://github.com/atzulf/course_story">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port5} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">Course Story App 1 Android Intermediate</h3>
+                <p className="text-base/loose text-justify">Creating an Android Intermediate 1 Course Story Application that uses the Auth API and user upload features using the gallery and camera.</p>
+              </div>
+            </a>
+            
 
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port5} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">Course Story App 1 Android Intermediate</h3>
-              <p className="text-base/loose text-justify">Creating an Android Intermediate 1 Course Story Application that uses the Auth API and user upload features using the gallery and camera.</p>
-            </div>
+            <a href="https://github.com/atzulf/digi-skill">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port7} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">DigiSkill Android App 5th semester</h3>
+                <p className="text-base/loose text-justify">Creating DigiSkill applications using Android Java in the Mobile Application Development course.</p>
+              </div>
+            </a>
+            
 
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port7} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">DigiSkill Android App 5th semester</h3>
-              <p className="text-base/loose text-justify">Creating DigiSkill applications using Android Java in the Mobile Application Development course.</p>
-            </div>
-
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port6} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">Course Story App 2 Android Intermediate</h3>
-              <p className="text-base/loose text-justify">Create an Android Intermediate 2 Course Story Application that has the addition of using the Google Maps API and infinity Scrolling using pagging 3.</p>
-            </div>
-
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port8} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">PersonaWay Personality App</h3>
-              <p className="text-base/loose text-justify">Creating Personality test applications using DISC and the use of Inter ML CC configuration to form Kotlin applications.</p>
-            </div>
-
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port9} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft Website</h3>
-              <p className="text-base/loose text-justify">Creating a UNYCraft E-commerce website using PHP that has a login feature as an Admin and login as a User Management information system.</p>
-            </div>
-
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port10} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft Mobile App</h3>
-              <p className="text-base/loose text-justify">Create a UNYCraft android application that implements recycle view and intent as a beginner Android Submission</p>
-            </div>
-
+            <a href="https://github.com/atzulf/course_story_v2">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port6} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">Course Story App 2 Android Intermediate</h3>
+                <p className="text-base/loose text-justify">Create an Android Intermediate 2 Course Story Application that has the addition of using the Google Maps API and infinity Scrolling using pagging 3.</p>
+              </div>
+            </a>
+            
+            <a href="https://github.com/PersonaWay">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port8} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">PersonaWay Personality App</h3>
+                <p className="text-base/loose text-justify">Creating Personality test applications using DISC and the use of Inter ML CC configuration to form Kotlin applications.</p>
+              </div>
+            </a>
+            
+            <a href="https://github.com/atzulf/UNYCraft-Information-System-Management">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port9} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft Website</h3>
+                <p className="text-base/loose text-justify">Creating a UNYCraft E-commerce website using PHP that has a login feature as an Admin and login as a User Management information system.</p>
+              </div>
+            </a>
+            
+            <a href="https://github.com/atzulf/UNYCraft">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port10} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft Mobile App</h3>
+                <p className="text-base/loose text-justify">Create a UNYCraft android application that implements recycle view and intent as a beginner Android Submission</p>
+              </div>
+            </a>
+            
             <div className="box p-2 bg-white shadow rounded-lg">
               <img src={port11} alt="crawlingtwitter" className="w-full h-[220px]"/>
               <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft UI Design</h3>
