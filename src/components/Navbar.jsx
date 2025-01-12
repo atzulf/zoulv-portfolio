@@ -41,9 +41,12 @@ const Navbar = () => {
           <li>
             <a href="#project" className="font-medium opacity-75">Project</a>
           </li>
+          <li>
+            <a href="#contact" className="font-medium opacity-75">Contact</a>
+          </li>
         </ul>
         <div className="social hidden md:block">
-          <a href="#" className="bg-sky-500 px-5 py-2 rounded-full text-white font-bold hover:bg-sky-600 transition-all">
+          <a href="#contact" className="bg-sky-500 px-5 py-2 rounded-full text-white font-bold hover:bg-sky-600 transition-all">
             Contact Me
           </a>
         </div>
