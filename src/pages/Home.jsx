@@ -88,6 +88,7 @@ const Home = () => {
           <h1 className="text-center lg:text-5xl/tight text-3xl font-bold mb-2">Project</h1>
           <p className="text-center">Let&apos;s Know about my project</p>
           <div className="project-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
+
             <a href="https://github.com/atzulf/Crawlingdatatwitter" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
                 <img src={port1} alt="crawlingtwitter" className="w-full h-[220px]"/>
@@ -104,11 +105,14 @@ const Home = () => {
               </div>
             </a>
             
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port3} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">UI Design Figma UNYCraft</h3>
-              <p className="text-base/loose text-justify">Creating Figma UNYCraft UI Design for 5th semester Human Computer Interaction Course.</p>
-            </div>
+            <a href="https://www.figma.com/design/rR5u4c7IW8KE5IiJ1EwluN/IMK-UNYCraft?node-id=0-1&t=UBI9dNtv7FrZHTxD-1" target="_blank">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port3} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">UI Design Figma UNYCraft</h3>
+                <p className="text-base/loose text-justify">Creating Figma UNYCraft UI Design for 5th semester Human Computer Interaction Course.</p>
+              </div>
+            </a>
+            
 
             <a href="https://github.com/atzulf/insectdetection" target="_blank">
               <div className="box p-2 bg-white shadow rounded-lg">
@@ -168,17 +172,22 @@ const Home = () => {
               </div>
             </a>
             
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port11} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft UI Design</h3>
-              <p className="text-base/loose text-justify">Create a UNYCraft UI Design Figma for Decision Making Systems course </p>
-            </div>
-
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={port12} alt="crawlingtwitter" className="w-full h-[220px]"/>
-              <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft UI Web Design</h3>
-              <p className="text-base/loose text-justify">Create a UNYCraft UI Design Website Figma for software project management course</p>
-            </div>
+            <a href="https://www.figma.com/design/r4P03oag3gywNRj6UFGkzc/SPK-Website?node-id=0-1&t=IaALx6PkCUKziLFN-1" target="_blank">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port11} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft UI Design</h3>
+                <p className="text-base/loose text-justify">Create a UNYCraft UI Design Figma for Decision Making Systems course </p>
+              </div>
+            </a>
+            
+            <a href="https://www.figma.com/design/6lUstHPeO1N70W8TDkUMQq/UNYCraft-Market?node-id=0-1&t=mSwLxfcHIynvmKo7-1" target="_blank">
+              <div className="box p-2 bg-white shadow rounded-lg">
+                <img src={port12} alt="crawlingtwitter" className="w-full h-[220px]"/>
+                <h3 className="text-xl font-bold mt-6 mb-2">UNYCraft UI Web Design</h3>
+                <p className="text-base/loose text-justify">Create a UNYCraft UI Design Website Figma for software project management course</p>
+              </div>
+            </a>
+            
 
           </div>
         </div>
